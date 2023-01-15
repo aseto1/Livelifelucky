@@ -562,15 +562,15 @@ def lifeevents():
               number += 1
           else:
               number = 0
-        #elif y >= 200 and number < 3:
+          #elif y >= 200 and number < 3:
           #x+= 25
           #number += 1
-        b.setposition(x, y)
-        b.pendown()
-        b.shape("circle")
-        b.shapesize(1)
-        time.sleep(1)
-        b.clear()
+          b.setposition(x, y)
+          b.pendown()
+          b.shape("circle")
+          b.shapesize(1)
+          time.sleep(1)
+          b.clear()
     
       events_occured += 2
       spin()
@@ -624,15 +624,15 @@ def lifeevents():
               number += 1
           else:
               number = 0
-        #elif y >= 200 and number < 3:
+          #elif y >= 200 and number < 3:
           #x+= 25
           #number += 1
-        b.setposition(x, y)
-        b.pendown()
-        b.shape("circle")
-        b.shapesize(1)
-        time.sleep(1)
-        b.clear()
+          b.setposition(x, y)
+          b.pendown()
+          b.shape("circle")
+          b.shapesize(1)
+          time.sleep(1)
+          b.clear()
       events_occured += 2
       spin()
   elif events_occured == 7:
@@ -830,9 +830,9 @@ def play():
       
   elif total_steps % 8 == 0:  #SPIN TO WIN
       
-      number = input("\nYou get to SpinToWin! Enter a value 1-10: ")
+      numm = input("\nYou get to SpinToWin! Enter a value 1-10: ")
       computer = random.randint(1,10)
-      if number == computer:
+      if numm == computer:
           print("\nThat is correct! You have won $200")
       else:
           print(f"\nUnfortunately, that is incorrect. The correct answer was {computer}. You don't win anything.")
